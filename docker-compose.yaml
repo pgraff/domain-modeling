@@ -1,0 +1,19 @@
+version: "3.3"
+services:
+  umple:
+    image: umple/umpleonline
+    volumes:
+      - ${PWD}/umpledoc:/var/www/ump:rw
+    ports:
+      - 8000:8000
+
+  scruffy:
+    image: wernight/scruffy-server
+    ports:
+      - 8080:8080
+
+  drawio:
+    image: fjudith/draw.io
+    ports:
+      - 8081:8080
+      - 8433:8443
