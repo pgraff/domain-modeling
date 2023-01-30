@@ -31,10 +31,10 @@ docker-compose up
   * http://localhost:8000/umple.php
 
 * Scruffy
-  * http://localhost:8080
+  * http://localhost:8081
 
 * Draw.io
-  * http://localhost:8081/?offline=1&https=0
+  * http://localhost:8080/?offline=1&https=0
 
 ## Instructions
 

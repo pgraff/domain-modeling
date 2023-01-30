@@ -10,10 +10,10 @@ services:
   scruffy:
     image: wernight/scruffy-server
     ports:
-      - 8080:8080
+      - 8081:8080
 
   drawio:
     image: fjudith/draw.io
     ports:
-      - 8081:8080
+      - 8080:8080
       - 8433:8443
