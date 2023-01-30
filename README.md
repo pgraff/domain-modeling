@@ -13,9 +13,9 @@ However, if the link above is broken, you should be able to do a simple Google s
 
 ## Content
 
-- `docker-compose.yaml`
-  - Contains the setup of various self-hosted tools
-  - If you have limited memory, you may want to comment out the tools by commenting out the services.
+* `docker-compose.yaml`
+  * Contains the setup of various self-hosted tools
+  * If you have limited memory, you may want to comment out the tools by commenting out the services.
 
 ## Starting docker
 
